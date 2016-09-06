@@ -297,6 +297,7 @@ class LoginViewController: UIViewController {
             /* 6. Use the data! */
             self.appDelegate.sessionID = sessionID
             self.getUserID(self.appDelegate.sessionID!)
+            print("logedin!")
         }
         
         /* 7. Start the request */
